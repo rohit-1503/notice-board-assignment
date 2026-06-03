@@ -24,6 +24,7 @@ A professional full-stack Notice Board application built as part of the Web Deve
 
 ## 📂 Project Structure
 
+```text
 notice-board/
 ├── pages/
 │   ├── index.js               # Notice listing
@@ -38,6 +39,7 @@ notice-board/
 │   └── NoticeForm.js
 ├── lib/prisma.js
 └── prisma/schema.prisma
+```
 
 ## 🚀 Setup & How to Run Locally
 1. **Clone the repository**:
@@ -47,12 +49,12 @@ notice-board/
 ```
 2. **Install dependencies**:
    ```bash
-   npm install
+npm install
 ```
 3. **Environment Variables**:
    Create a `.env` file in the root directory (or copy `.env.example` to `.env.local`) and add your TiDB connection string:
    ```env
-   DATABASE_URL="mysql://USER:PASSWORD@HOST:PORT/DATABASE?sslaccept=strict"
+DATABASE_URL="mysql://USER:PASSWORD@HOST:PORT/DATABASE?sslaccept=strict"
 ```
 4. **Generate Prisma Client**:
    ```bash
